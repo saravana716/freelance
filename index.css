@@ -179,7 +179,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap:30px;
-    bottom: -110px;
+    bottom: -130px;
 
 }
 .cartimg{
