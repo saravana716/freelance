@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: "Inter", sans-serif;
+}
+.navbar{
+    height: 85px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 35px;
+
+}
+.navtitle{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.navtitle img{
+    position: absolute;
+    right: 122px;
+    top: -7px;
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+}
+.navtitle h1{
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #032433;
+}
+.centerNav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 35px;
+}
+
+.centerNav h3{
+    font-weight: bold;
+    font-size: 15px;
+    color: #7E75A7;
+    cursor: pointer;
+}
+.navbtns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 35%;
+
+    height: 100%;
+}
+.navbtns button{
+    padding: 10px 30px ;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #032433;
+    font-size: 15px;
+    font-weight:400;
+    border: 1px solid #032433;
+    background-color: transparent;
+}
+.Banner{
+    width: 100%;
+    height: 165px;
+    background: url("./images/Frame\ 3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+.Banner h1{
+    font-size: 43px;
+    font-weight: bolder;
+}
+.Banner button{
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #FA1239;
+    color: white;
+    position: absolute;
+    bottom: -17px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight:normal;
+    cursor: pointer;
+}
+.Content{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.contentinner{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    flex-direction: column;
+}
+.contentinner h1{
+    font-size: 38.88px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.contentinner h1 span{
+    color: #FA1239;
+}
+.contentinner p{
+    font-size: 400;
+    color: #032433;
+    line-height: 27px;
+}
+.contentimg{
+    object-fit: contain;
+    margin-right: 30px;
+}
+.cartmain{
+    width: 100%;
+    padding: 30px;
+    height: 66%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.cart{
+    width:100%;
+    height: 300px;
+    
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+    position: relative;
+    background-color: #FA1239;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+.cart h1{
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+}
+.cart p{
+    color: white;
+    font-size: 18px;
+    font-weight:lighter;
+}
+.carts{
+    width: 80%;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:30px;
+    bottom: -110px;
+
+}
+.cartimg{
+    width: 100px;
+    height: 131px;
+    display: flex;
+    align-items: flex-start;
+}
+.cartimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.cartbox{
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+}
+.cartbox p{
+    color:#032433;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 20px;
+}
