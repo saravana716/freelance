@@ -21,7 +21,6 @@ body{
 }
 .navtitle{
     height: 100%;
-    width: 30%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -29,8 +28,8 @@ body{
 }
 .navtitle img{
     position: absolute;
-    right: 122px;
-    top: -7px;
+    right: -23px;
+    top: -8px;
     width: 26px;
     height: 26px;
     object-fit: contain;
@@ -42,7 +41,6 @@ body{
     color: #032433;
 }
 .centerNav{
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -60,7 +58,6 @@ body{
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    width: 35%;
 
     height: 100%;
 }
@@ -108,14 +105,14 @@ body{
 }
 .Content{
     width: 100%;
-    height: 70%;
+    height: 63%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px;
 }
 .contentinner{
-    width: 45%;
+    width: 55%;
     height: 100%;
     display: flex;
     align-items: flex-start;
@@ -136,8 +133,13 @@ body{
     line-height: 27px;
 }
 .contentimg{
-    object-fit: contain;
     margin-right: 30px;
+}
+.contentimg img{
+    width: 448px;
+    height: 338px;
+    object-fit: contain;
+
 }
 .cartmain{
     width: 100%;
@@ -172,7 +174,7 @@ body{
 .cart p{
     color: white;
     font-size: 18px;
-    font-weight:lighter;
+    font-weight:300;
 }
 .carts{
     width: 90%;
@@ -180,7 +182,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap:30px;
-    bottom: -130px;
+    bottom: -155px;
 
 }
 .cartimg{
@@ -195,6 +197,7 @@ body{
     object-fit: contain;
 }
 .cartbox{
+    height: 300px;
     border-radius: 20px;
     background-color: white;
     display: flex;
